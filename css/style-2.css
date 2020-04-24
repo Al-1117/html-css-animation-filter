@@ -1,0 +1,67 @@
+
+/* Esercizio 1 */
+.container .row .col-xs-12 .well .ex-1-square {
+  width: 40px;
+  height: 40px;
+  background: black;
+  transition: background 10s;
+}
+.container .row .col-xs-12 .well .ex-1-square:hover{
+  background-color: red;
+}
+/* Fine Esercizio 1 */
+
+/* Esercizio 2 */
+.container .row .col-xs-12 .well .ex-2-square {
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  transition: width 5s;
+}
+.container .row .col-xs-12 .well .ex-2-square:active{
+  width: 200px;
+}
+/* Fine Esercizio 2 */
+
+/* Esercizio 3 */
+.container .row .col-xs-12 .well .ex-3-square {
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  border: 1px solid black;
+  transition: border-radius 5s;
+}
+.container .row .col-xs-12 .well .ex-3-square:hover{
+  border-radius: 50%;
+}
+/* Fine Esercizio 3 */
+
+/* Esercizio 4 */
+.container .row .col-xs-12 .well .ex-4-square {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  transition: background 5s;
+}
+.container .row .col-xs-12 .well .ex-4-square:hover{
+  background-color: inherit;
+}
+/* Fine Esercizio 4 */
+
+/* Esercizio 5 */
+.container .row .col-xs-12 .well .ex-5-square {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  transition: width height 5s;
+}
+.container .row .col-xs-12 .well .ex-5-square:hover{
+  width: 60px;
+  height: 60px;
+}
+
+.container .row .col-xs-12 .well .ex-5-square:active{
+  width: 20px;
+  height: 20px;
+}
+/* Fine Esercizio 4 */
